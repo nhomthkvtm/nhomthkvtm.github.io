@@ -11,14 +11,14 @@
     margin: auto;
     display: flex;
     width: 1280px;
-    height: 1550px;
+    height: 1100px;
     
 
 }
 .LeftBlock{
     width: 345px;
     background-color: #3c5464;
-    height: 1550px;
+    height: 1100px;
     border-color: #707070;
     border: 20px;
 }
@@ -166,6 +166,7 @@ nav ul .cardmanamegent-show.show{
     margin-left: 12px;
     margin-top: 12px;;
     position: relative;
+    color: #062C44;
 }
 
 .Text1{
@@ -199,11 +200,12 @@ margin-top: 10px;
     border: 1px #cacaca solid;
     margin-top: 8px;
     margin-left: 12px;
-    height: 1450px;
+    height: 1000px;
     width: 910px;
     position: relative;
+    color: #062C44;
 }
-.Bottom h3{
+.TextBottom1{
     color: #F36F21;
     margin-left: 17px;
 
@@ -212,11 +214,12 @@ margin-top: 10px;
 .Bottom p{
     margin-left: 17px;
 }
-
+.imghouse{
+    margin-left: 3px;
+}
 .Bottom1{
     
     position: relative;
-    color: #062C44;
     
 }
 .Label{
@@ -233,7 +236,7 @@ margin-top: 10px;
     
     position: relative;
     
-    height: 670px;
+    height: 215px;
 }
 
 .LineInput{
@@ -258,9 +261,8 @@ margin-top: 10px;
     margin-top: 10px;
     font-size: 18px;
     border: 1px #cacaca solid;
-    outline-width:0 ;
-    background-color: #D6D6D6;
-    color: #062C44;
+    outline-color:#f68e52 ;
+    background: #D6D6D6;
 }
 
 .LineInput select option{
@@ -274,24 +276,226 @@ margin-top: 10px;
     margin-top: 10px;
     font-size: 18px;
     border: 1px #cacaca solid;
-    background-color: #D6D6D6;
+    outline-width: thin;
     outline-width: 0;
-    color: #062C44;
+}
+
+
+hr.LineOne{
+    margin: auto;
+    width: 870px;
+    
+}
+
+.Bottom2{
+    height: 340px;
+}
+
+
+.HorizontalMenu ul{
+    list-style: none;
+    background-color: #F8F6F4;
+    border: 1px #F5AB7F solid;
+    border-radius: 10px;
+    height: 50px;
+    width: 890px;
+    
+    margin-top: 3px;
+    margin: auto;
+}
+.HorizontalMenu ul li{
+    display:inline-table;
+    
+    height: 50px;
+    line-height: 50px;
+    margin-left: 17px;
+    width: 147px;
+    text-align: center;
+}
+.HorizontalMenu ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    
+    
+}
+.HorizontalMenu ul li a:hover{
+    background-color: #F36F21;
+}
+
+.Textt{
+    margin-top: 30px;
+}
+
+
+td{
+    height: 43px;
+    border-right: 1px solid rgba(0,0,0,.02);
+}
+ 
+.Linee{
+    width: 111px;
+}
+.TableScroll {
+    border-collapse:collapse ;
+    
+    display: block;
+    height: 380px;
+    width: 870px;
+    margin: auto;
+    font-size: 12px;
+    
+    margin-top: 30px;
+    position: relative;
+    
+    
+    
+    
+    
+    
+}
+
+table,td,th{
+    border: 1px  solid #E4E7EA;
+}
+.TableScroll thead{
+    display: block;
+    
+}
+
+
+.TableScroll tbody{
+    
+    position: relative;
+    
+    overflow-y: scroll;
+    display: block;
+    height: 350px;
+    
+    
 }
 
 
 
+
+
+
+
+
+
+.TableScroll tbody tr:nth-child(2n){background-color: #F4F4F4;}
+
+table tr:hover {background-color: #ddd;}
+
+
+
+td{
+    text-align: center;
+}
+th{
+    background: white;
+    font-weight: 400;
+}
+.NextAndPrevious{
+    margin: auto;
+    width: 870px;
+    display: flex;
+    font-size: 12px;
+    
+}
+.BtnPrevious{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    cursor: pointer;
+    
+    
+}
+
+.BtnPrevious:hover{
+    background: #8f8f8F;
+    color: white;
+    
+}
+.BtnPrevious a{
+    text-decoration: none;   
+    color: #aeaeae;
+}
+
+
+
+
+ .Spinner{
+    margin-left: 40px;
+    height: 42px;
+    margin-top: 10px;
+    
+ }
+.Spinner input{
+width: 45px;
+text-align: center;
+margin-left:5px ;
+border: 1px #cacaca solid;
+border-radius: 5px;
+outline-width: 0;
+
+
+
+}
+
+.Row{
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
+
+.Row select{
+    width: 90px;
+    
+    border: 1px #cacaca solid;
+    border-radius: 5px;
+    background-color: #fff;
+    
+    outline-width: 0;
+    
+    font-size: 12px;
+    width: 95px;
+    height: 25px;
+}
+
+
+
+
+.BtnNext{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    margin-left: 65px;
+    cursor: pointer;
+    
+}
+.BtnNext a{
+    text-decoration: none;   
+    color: #aeaeae;
+}
+.BtnNext:hover{
+    background: #8f8f8F;
+}
 .BtnCancel{
     width: 95px;
     height: 35px;
     
     
-    
+    color: #F36F21;
     border-radius: 20px;
     border-color:#F36F21 ;
     background: white;
     position: absolute;
-    top: 1290px;
+    top: 900px;
     right: 25px;
     font-size: 18px;
     cursor: pointer;
@@ -301,6 +505,8 @@ margin-top: 10px;
     text-decoration: none;
     color: #F36F21;
 }
+
+
 
 .Footer{
     background-color: #F36F21;
@@ -316,8 +522,8 @@ margin-top: 10px;
     width: 650px;
     font-weight: 400;
     padding: 5px;
+    
 }
-
 
 
 
