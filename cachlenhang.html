@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/cachthuclenhang.css">
+</head>
+<body>
+    <div class="AllGui">
+        <div class="LeftBlock">
+            <div class="Logo">
+                <img class="hinh11" src="image/anhnen.png" alt="" >
+                
+                
+            </div>
+            <div class="TollsPart">
+                
+                <nav class="Sidebar">
+                    <ul>
+                        
+                        <li>
+                            <a href="#" class="cardmanamegent-btn"><span  class="icon2"><img src="image/ic_library_books_24px.png" alt=""></span><span>CÁC CHỨC NĂNG</span> <span class="ChevronDown"><img src="image/icons8_angle_down_64px.png" alt=""></span></a>
+                            <ul class="cardmanamegent-show">
+                                <li><a href="phanthuongtuan.html"><span>Phần thưởng của tuần</span></a></li>
+                                <li><a href="Thanhvien.html"><Span>Danh sách hội viên</Span></a></li>
+                                <li><a href="cachlenhang.html"><span>Cách thức lên hạng</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="RightBlock">
+            <div class="UpperPart">
+                <h3 class="Text1">Welcome TH Member!</h3>
+                <h4 class="Text2"> Happy you have a nice day !</h4>
+                
+            </div>
+            <div class="Bottom">
+                
+                        <h3>Cách Thức Lên Hạng</h3> 
+                        <table class="table1">
+                            <tr class="qwer">
+                                <th class="rrr" style="width: 230px;height: 40px;">Chức vụ</th>
+                                <th class="Line2" >Số lượng</th>
+                                <th class="Line2">Quyền lợi</th>
+                                <th class="Line2">Điều kiện lên hạng</th>
+                                <th class="Line2">Xuống hạng</th>
+                            </tr>
+                            <tr>
+                                <td class="" style="height: 75px;">Trưởng Viên</td>
+                                <td style="height: 75px;"class="Line2"align="center">3 hội viên</td>
+                                <td style="height: 75px;"class="Line2"align="center">Nhận 30 ngọc tự chọn mỗi tuần, cơ hội lên làm phó hội</td>
+                                <td style="height: 75px;"class="Line2"align="center">Top1 trong 4 đại viên ( vượt điểm top 3 trưởng viên)</td>
+                                <td style="height: 75px;"class="Line2"align="center">Đứng cuối trong danh sách và kém điểm top1 đại viên</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 75px;">Đại viên</td>
+                                <td class="Line2"align="center">4 hội viên</td>
+                                <td class="Line2"align="center">Nhận 15 ngọc tự chọn mỗi tuần</td>
+                                <td style="height: 75px;"class="Line2"align="center">Top1 của danh sách tinh nhuệ viên( vượt điểm top4 đại viên)</td>
+                                <td style="height: 75px;"class="Line2"align="center">Top4 trong danh sách đại viên và kém điểm top 1 tinh nhuệ viên</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 75px;">Tinh Nhuệ Viên</td>
+                                <td class="Line2"align="center">Bất cứ ai</td>
+                                <td class="Line2"align="center">đua top Đại viên</td>
+                                <td style="height: 75px;"class="Line2"align="center">Là hội viên nằm trong top 1 top 2( không tính đại viên trở lên và đủ chỉ tiêu)</td>
+                                <td style="height: 75px;"class="Line2"align="center">làm dưới 400 (tất nhiên rồi)</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 75px;">Hội Viên</td>
+                                <td class="Line2"align="center">là thành viên của nhóm</td>
+                                <td class="Line2"align="center">cái nịt</td>
+                                <td style="height: 75px;"class="Line2"align="center">x</td>
+                                <td style="height: 75px;"class="Line2"align="center">luật của chủ hội: hiện nút xám, 1 tuần ko làm nhiệm vụ và không liên lạc >> reject</td>
+                            </tr>
+                            
+                        </table>
+                            
+                            
+                        
+
+                        </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="Footer">
+        <h4>Trang web dành cho nông hội TH được lập ra bởi Phó hội Nguyễn Đức Trọng (Minh Trọng)</h4>
+    </div>
+    <script>
+        
+
+        $('.cardmanamegent-btn').click(function(){
+            $('nav ul .cardmanamegent-show').toggleClass("show")
+        });
+    </script>
+    
+</body>
+</html>

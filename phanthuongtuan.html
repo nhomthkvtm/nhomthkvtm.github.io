@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link rel="stylesheet" href="css/ReconciliationFileStatus–ViewRecordDetail.css">
+</head>
+<body>
+    <div class="AllGui">
+        <div class="LeftBlock">
+            <div class="Logo">
+                <img class="hinh11" src="image/anhnen.png" alt="" >
+                
+                
+            </div>
+            <div class="TollsPart">
+                
+                <nav class="Sidebar">
+                    <ul>
+                        
+                        <li>
+                            <a href="#" class="cardmanamegent-btn"><span  class="icon2"><img src="image/ic_library_books_24px.png" alt=""></span><span>CÁC CHỨC NĂNG</span> <span class="ChevronDown"><img src="image/icons8_angle_down_64px.png" alt=""></span></a>
+                            <ul class="cardmanamegent-show">
+                                <li><a href="phanthuongtuan.html"><span>Phần thưởng của tuần</span></a></li>
+                                <li><a href="Thanhvien.html"><Span>Danh sách hội viên</Span></a></li>
+                                <li><a href="cachlenhang.html"><span>Cách thức lên hạng</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+        </div>
+        <div class="RightBlock">
+            <div class="UpperPart">
+                <h3 class="Text1">Welcome TH Member!</h3>
+                <h4 class="Text2"> Happy you have a nice day !</h4>
+                
+            </div>
+            <div class="Bottom">
+                
+                <h3>Phần thưởng tới các thành viên Nông hội</h3>
+                <div class="FunctionPart">
+                    <form action="SearchCard">
+                        <div class="LineInput">
+                            <div class="Input">
+                                <div><label for="format">Phần thưởng dành cho top 1 đua nhiệm vụ</label></div>
+                                <input type="text" value="25 ngọc cam" readonly>
+                                </div>
+                            
+                            
+                                <div class="Input2">
+                                    <div><label for="format">Phần thưởng dành cho top 2 đua nhiệm vụ</label></div>
+                                    <input type="text" value="20 ngọc tím" readonly>
+                            </div>
+                        </div>
+                        <div class="LineInput">
+                            <div class="Input">
+                                <div><label for="format">Phần thưởng dành cho thành viên làm đủ chỉ tiêu</label></div>
+                                <input type="text" value="15 ngọc bất kì" readonly>
+                                </div>
+                            
+                            
+                                <div class="Input2">
+                                    
+                                    <div><label for="format">Chỉ tiêu tuần này(cập nhật thường xuyên theo thứ hạng)</label></div>
+                                    <input type="text" value="2000 điểm" readonly>
+                            </div>
+                        </div>
+                        <div class="LineInput">
+                            <div class="Input">
+                                <div><label for="format">Phần thưởng của chủ hội dành riêng cho thành viên</label></div>
+                                <input type="text" value="Tùy theo cảm xúc của chủ hội đến thành viên :v" readonly>
+                                </div>
+                            
+                            
+                                
+                        </div>
+                        
+                        
+                        
+                        <p class="luuy">Lưu ý: phần thưởng đua top không tính thứ hạng của chủ phó hội</p>
+                    </form>
+                </div>
+                            
+                            
+                        
+
+                        </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="Footer">
+        <h4>Trang web dành cho nông hội TH được lập ra bởi Phó hội Nguyễn Đức Trọng (Minh Trọng)</h4>
+    </div>
+    <script>
+        
+
+        $('.cardmanamegent-btn').click(function(){
+            $('nav ul .cardmanamegent-show').toggleClass("show")
+        });
+    </script>
+    
+</body>
+</html>

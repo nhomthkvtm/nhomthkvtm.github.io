@@ -11,21 +11,30 @@
     margin: auto;
     display: flex;
     width: 1280px;
-    height: 1100px;
+    height: 750px;
     
 
 }
 .LeftBlock{
     width: 345px;
     background-color: #3c5464;
-    height: 1100px;
+    height:738px;
     border-color: #707070;
     border: 20px;
+    margin-top: 12px;
+}
+.hinh11{
+    width: 307px;
+    height: 76px;
 }
 .Logo{
     width: 345px; height:95px; background: white;
     
     border-radius: 0px 0px 20px 0px;
+    position: relative;
+    border: 1px #cacaca solid;
+    margin-top: 12px;
+    height: 80px;
 }
 .Search{
     position: relative;
@@ -65,7 +74,7 @@
     background-color: #3c5464;
     width: 345px;
     left: 0;
-    margin-top: 470px;
+    margin-top: 30px;
     
     
 }
@@ -200,12 +209,12 @@ margin-top: 10px;
     border: 1px #cacaca solid;
     margin-top: 8px;
     margin-left: 12px;
-    height: 1000px;
+    height: 650px;
     width: 910px;
     position: relative;
     color: #062C44;
 }
-.TextBottom1{
+.Bottom h3{
     color: #F36F21;
     margin-left: 17px;
 
@@ -234,7 +243,7 @@ margin-top: 10px;
     
     position: relative;
     
-    height: 215px;
+    height: 385px;
 }
 
 .LineInput{
@@ -260,7 +269,6 @@ margin-top: 10px;
     font-size: 18px;
     border: 1px #cacaca solid;
     outline-color:#f68e52 ;
-    background: #D6D6D6;
 }
 
 .LineInput select option{
@@ -277,122 +285,222 @@ margin-top: 10px;
     outline-width: thin;
     outline-width: 0;
 }
-
-
-hr.LineOne{
-    margin: auto;
-    width: 870px;
-    
-}
-
-.Bottom2{
-    height: 340px;
-}
-
-
-.HorizontalMenu ul{
-    list-style: none;
-    background-color: #F8F6F4;
-    border: 1px #F5AB7F solid;
-    border-radius: 10px;
-    height: 50px;
-    width: 890px;
-    margin: auto;
-    
-    margin-top: 3px;
-}
-.HorizontalMenu ul li{
-    display:inline-table;
-    
-    height: 50px;
-    line-height: 50px;
-    margin-left: 17px;
-    width: 147px;
-    text-align: center;
-}
-.HorizontalMenu ul li a{
-    text-decoration: none;
-    color: black;
-    display: block;
-    
-    
-}
-.HorizontalMenu ul li a:hover{
-    background-color: #F36F21;
-}
-
-.TextBottom2{
-    
-    color: #F36F21;
-    margin-left: 17px;
-
-    margin-top: 35px;
-}
-.table1{
-    width: 855px;
-    border-collapse: collapse;
-    margin: auto;
-    margin-top: 35px;
-    font-weight: 400;
-}
-.table1, .qwer{
-    border: 1px solid #707070;
-
-}
-
-th,td{
-    padding: 2px 0px 2px 12px;
-}
-
-th{
-    font-weight: 400;
-}
-
-.Line2{
-    border-left: 1px solid #707070;
-}
-.TextBottom3{
-    color: #F36F21;
-    margin-left: 17px;
-
-    margin-top: 18px;
-}
-.table2{
-    border-collapse: collapse;  
-    width: 870px;
-    margin: auto;
-    
-    margin-top: 20px;
-}
-th:first-child{
-    width: 45px;
-}
-
-table tr td a{
-    text-decoration: none;
-    color: black;
-}
-
-.BtnCancel{
+.BtnSearch{
     width: 95px;
     height: 35px;
+    background-color:#008000;
+    border: none;
     
-    
-    color: #F36F21;
     border-radius: 20px;
-    border-color:#F36F21 ;
-    background: white;
     position: absolute;
-    top: 920px;
+    top: 310px;
     right: 25px;
     font-size: 18px;
     cursor: pointer;
 
+
+
 }
-.BtnCancel a{
+
+.BtnSearch a{
+    text-decoration: none;
+    color: white;
+}
+
+.BtnClear{
+    width: 95px;
+    height: 35px;
+    color: #F36F21;
+    border-color:#F36F21 ;
+    background:white;
+    
+    
+    border-radius: 20px;
+    position: absolute;
+    top: 310px;
+    right: 144px;
+    font-size: 18px;
+    cursor: pointer;
+
+
+
+}
+
+.BtnClear a{
     text-decoration: none;
     color: #F36F21;
 }
+
+hr.LineOne{
+    margin: auto;
+    width: 870px;
+}
+
+.Textt{
+    margin-top: 30px;
+}
+
+
+td{
+    height: 43px;
+    border-right: 1px solid rgba(0,0,0,.02);
+}
+ 
+
+.TableScroll {
+    border-collapse:collapse ;
+    
+    display: block;
+    height: 380px;
+    width: 870px;
+    margin: auto;
+    font-size: 12px;
+    
+    margin-top: 30px;
+    position: relative;
+    
+    
+    
+    
+    
+    
+}
+th{
+    width: 280px;
+}
+table,td,th{
+    border: 1px  solid #E4E7EA;
+}
+.TableScroll thead{
+    display: block;
+    width: 100%;
+    
+}
+
+
+.TableScroll tbody{
+    
+    position: relative;
+    
+    overflow-y: scroll;
+    display: block;
+    height: 350px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+.TableScroll tbody tr:nth-child(2n){background-color: #f7f7f7;}
+
+
+
+
+.TableScroll tr td a{
+    text-decoration: none;
+    color: black;
+}
+td{
+    text-align: center;
+}
+th{
+    background: white;
+    font-weight: 400;
+}
+.NextAndPrevious{
+    margin: auto;
+    width: 870px;
+    display: flex;
+    font-size: 12px;
+    
+}
+.BtnPrevious{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    cursor: pointer;
+    
+    
+}
+
+.BtnPrevious:hover{
+    background: #8f8f8F;
+    color: white;
+    
+}
+.BtnPrevious a{
+    text-decoration: none;   
+}
+
+
+
+
+ .Spinner{
+    margin-left: 40px;
+    height: 42px;
+    margin-top: 10px;
+    
+ }
+.Spinner input{
+width: 45px;
+text-align: center;
+margin-left:5px ;
+border: 1px #cacaca solid;
+border-radius: 5px;
+outline-width: 0;
+
+
+
+}
+
+.Row{
+    margin-left: 90px;
+    margin-top: 10px;
+    
+}
+
+.Row select{
+    width: 90px;
+    
+    border: 1px #cacaca solid;
+    border-radius: 5px;
+    background-color: #fff;
+    
+    outline-width: 0;
+    
+    font-size: 12px;
+    width: 95px;
+    height: 25px;
+}
+
+
+
+
+.BtnNext{
+    background-color: #F4F4F4;
+    color: black;
+    width: 240px;
+    height: 42px;
+    border: 1px #cacaca solid;
+    margin-left: 65px;
+    cursor: pointer;
+    
+}
+.BtnNext a{
+    text-decoration: none;   
+}
+.BtnNext:hover{
+    background: #8f8f8F;
+}
+
 
 .Footer{
     background-color: #F36F21;
@@ -408,9 +516,21 @@ table tr td a{
     width: 650px;
     font-weight: 400;
     padding: 5px;
-    
 }
 
 
 
+.hinh12{
+    width: 910px;
+    height: 650px;
+}
   
+.texxt{
+    
+    top: 100px;
+    position: absolute;
+}
+
+.luuy{
+    margin-top: 17px;
+}
