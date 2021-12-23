@@ -365,9 +365,10 @@ td{
     
     
 }
-th{
-    width: 280px;
+.asd{
+width: 100px;
 }
+
 table,td,th{
     border: 1px  solid #E4E7EA;
 }

@@ -27,6 +27,44 @@
     width: 307px;
     height: 76px;
 }
+.Top1a{
+    display: flex;
+    margin-top: 12px;
+}
+.top1{
+    width: 270px;
+    height: 200px;
+    
+    
+}
+.top2{
+    width: 270px;
+    height: 200px;
+}
+.top3{
+    width: 270px;
+    height: 200px;
+}
+.laglag{
+    margin-top: 80px;
+    position: relative;
+}
+.laglag2{
+    margin-top: 10px;
+}
+.laglag3{
+    margin-top: 80px;
+}
+
+.vinhdanh{
+    margin-left: 16px;
+}
+.aa{
+    font-size: 30px;
+    color: green;
+    position: absolute;
+}
+
 .Logo{
     width: 345px; height:95px; background: white;
     
@@ -213,6 +251,10 @@ margin-top: 10px;
     width: 910px;
     position: relative;
     color: #062C44;
+    position: relative;
+    
+    overflow-y: scroll;
+    display: block;
 }
 .Bottom h3{
     color: #F36F21;
@@ -261,7 +303,7 @@ margin-top: 10px;
 }
 
 .LineInput select{
-    width: 396px;
+    width: 415px;
     height: 45px;
     border-radius:5px ;
     padding: 8px;
@@ -273,9 +315,10 @@ margin-top: 10px;
 
 .LineInput select option{
     font-size: 18px;
+    height: 65px;
 }
 .LineInput input{
-    width: 396px;
+    width: 415px;
     height: 45px;
     border-radius:5px ;
     padding: 10px;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
+    <title>Thông tin phần thưởng tuần</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <link rel="stylesheet" href="css/ReconciliationFileStatus–ViewRecordDetail.css">
 </head>
@@ -24,9 +24,9 @@
                         <li>
                             <a href="#" class="cardmanamegent-btn"><span  class="icon2"><img src="image/ic_library_books_24px.png" alt=""></span><span>CÁC CHỨC NĂNG</span> <span class="ChevronDown"><img src="image/icons8_angle_down_64px.png" alt=""></span></a>
                             <ul class="cardmanamegent-show">
-                                <li><a href="phanthuongtuan.html"><span>Phần thưởng của tuần</span></a></li>
+                                <li><a href="phanthuongtuan.html"><span>Thông Tin Nông hội</span></a></li>
                                 <li><a href="Thanhvien.html"><Span>Danh sách hội viên</Span></a></li>
-                                <li><a href="cachlenhang.html"><span>Cách thức lên hạng</span></a></li>
+                                <li><a href="cachlenhang.html"><span>Giới thiệu</span></a></li>
                             </ul>
                         </li>
                     </ul>
@@ -42,45 +42,46 @@
             </div>
             <div class="Bottom">
                 
-                <h3>Phần thưởng tới các thành viên Nông hội</h3>
+                
+                <h3>Phần Thưởng Tuần</h3>
                 <div class="FunctionPart">
                     <form action="SearchCard">
                         <div class="LineInput">
                             <div class="Input">
-                                <div><label for="format">Phần thưởng dành cho top 1 đua nhiệm vụ</label></div>
-                                <input type="text" value="30 ngọc tím " readonly>
-                                </div>
-                            
-                            
-                                <div class="Input2">
-                                    <div><label for="format">Phần thưởng dành cho top 2 đua nhiệm vụ</label></div>
-                                    <input type="text" value="12 ngọc cam" readonly>
-                            </div>
-                        </div>
-                        <div class="LineInput">
-                            <div class="Input">
-                                <div><label for="format">Phần thưởng dành cho thành viên làm đủ chỉ tiêu</label></div>
-                                <input type="text" value="15 ngọc bất kì" readonly>
-                                </div>
-                            
-                            
-                                <div class="Input2">
+                                <div><label for="format">Phần thưởng dành cho top đua nhiệm vụ</label></div>
+                                <select name="format" id="MessageType">
+                                    <option selected disabled>>> Bấm Để Xem </option>
+                                    <option value="1">TOP 1: 10k momo hoặc zalopay, 40 ngọc cam</option>
+                                    <option value="2">TOP 2: 30 ngọc cam</option>
                                     
-                                    <div><label for="format">Chỉ tiêu tuần này(cập nhật thường xuyên theo thứ hạng)</label></div>
-                                    <input type="text" value="2300 điểm" readonly>
+                                </select>
+                                </div>
+                            
+                            
+                                <div class="Input2">
+                                    <div><label for="format">Phần thưởng dành cho thành viên làm chỉ tiêu cao</label></div>
+                                    <select name="format" id="MessageType">
+                                        <option selected disabled>>> Bấm Để Xem </option>
+                                        <option value="1">Trên 18 000: 30 cam, 30 xanh lá, 30 cầu vồng</option>
+                                        <option value="2">Trên 15 000: 15 cam,  15 xanh lá, 15 cầu vồng</option>
+                                        <option value="3">Trên 12 000: 10 cam,  10 tím, 10 vàng</option>
+                                        
+                                    </select>
                             </div>
                         </div>
                         <div class="LineInput">
                             <div class="Input">
-                                <div><label for="format">Phần thưởng của chủ hội dành riêng cho thành viên</label></div>
-                                <input type="text" value="Tùy theo cảm xúc của chủ hội đến thành viên :v" readonly>
+                                <div><label for="format">Chỉ Tiêu cần có của 1 hội viên</label></div>
+                                <input type="text" value="3000 điểm" readonly>
                                 </div>
                             
                             
                                 
                         </div>
+                        
                         <p class="luuy">Lưu ý: phần thưởng đua top không tính thứ hạng của chủ phó hội</p>
                         <hr class="LineOne">
+                        <h3>Thông tin số điểm Tuần</h3>
                         <div class="LineInput">
                             <div class="Input">
                                 <div><label for="format">Cấp bậc tuần này</label></div>
@@ -107,6 +108,8 @@
                                     <input type="text" value="Lên hạng tuần sau" readonly>
                             </div>
                         </div>
+                        
+                        
                         
                         
                         

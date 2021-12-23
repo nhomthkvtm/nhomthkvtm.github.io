@@ -213,6 +213,7 @@ margin-top: 10px;
     width: 910px;
     position: relative;
     color: #062C44;
+    
 }
 .Bottom h3{
     color: #F36F21;
@@ -529,4 +530,8 @@ outline-width: 0;
     
     top: 100px;
     position: absolute;
+}
+
+.hidden{
+    overflow: hidden;
 }
