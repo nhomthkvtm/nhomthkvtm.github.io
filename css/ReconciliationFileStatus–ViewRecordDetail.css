@@ -12,6 +12,7 @@
     display: flex;
     width: 1280px;
     height: 750px;
+    position: relative;
     
 
 }
@@ -529,20 +530,23 @@ outline-width: 0;
 
 
 .BtnNext{
-    background-color: #F4F4F4;
-    color: black;
-    width: 240px;
+    position: absolute;
+    background-color: wheat;
+    color: #F36F21;
+    width: 160px;
     height: 42px;
-    border: 1px #cacaca solid;
-    margin-left: 65px;
+    border: 1px #F36F21 solid;
+    top: 30px;
+    right: 30px;
     cursor: pointer;
+    border-radius: 12px;
     
 }
 .BtnNext a{
     text-decoration: none;   
 }
 .BtnNext:hover{
-    background: #8f8f8F;
+    background: #f36f21;
 }
 
 
